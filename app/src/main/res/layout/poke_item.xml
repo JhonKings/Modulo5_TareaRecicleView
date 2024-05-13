@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/txtNumPokemon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:layout_weight="0.5"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/txtNomPokemon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pikachu"
+            android:layout_weight="2"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textAlignment="center"/>
+
+        <ImageView
+            android:id="@+id/svgTipo"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/pb"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
